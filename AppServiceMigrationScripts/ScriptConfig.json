@@ -1,0 +1,15 @@
+{
+    "ScriptsVersion": "1.0.0",
+	"PortalEndpoint": "https://portal.azure.com",
+    "PackagedSitesFolder": "packagedsites\\",
+	"DefaultReadinessResultsFilePath": "ReadinessResults.json",
+    "DefaultPackageResultsFileName": "PackageResults.json",
+    "DefaultMigrationSettingsFilePath": "MigrationSettings.json",
+	"DefaultMigrationResultsFilePath": "MigrationResults.json",
+    "PackagedSiteFilePostFix": "_Content.zip",
+    "EnableTelemetry": false,
+    "TelemetryInstrumentKey" : "f59c53e2-bb08-47a3-87e7-e5a1af546ead",    	
+    "ASPNumberOfWorkers": 1,
+    "ASPWorkerSize": "Small",
+    "FatalChecks": "ContentSizeCheck,ContentSizeCheckUnknown"
+}

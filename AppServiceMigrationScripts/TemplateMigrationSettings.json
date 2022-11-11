@@ -1,0 +1,28 @@
+[
+    {
+        "AppServicePlan":  "MyAppServicePlanName",
+        "SubscriptionId":  "00000000-0000-0000-0000-000000000000",
+        "Region":  "southcentralus",
+        "ResourceGroup":  "MyResourceGroupName",
+        "Tier":  "Basic|Standard|PremiumV2|PremiumV3 or Isolated|IsolatedV2 (for App Service Environments)",
+        "NumberOfWorkers":  1,
+        "WorkerSize":  "Small|Medium|Large",
+        "Sites":  [
+                      {
+                          "IISSiteName":  "SiteA",
+                          "SitePackagePath":  "SiteA_Content.zip",
+                          "AzureSiteName":  "SiteAAzureSiteName"
+                      },
+                      {
+                          "IISSiteName":  "SiteB",
+                          "SitePackagePath":  "SiteB_Content.zip",
+                          "AzureSiteName":  "SiteBAzureSiteName"
+                      },
+                      {
+                          "IISSiteName":  "SiteC",
+                          "SitePackagePath":  "SiteC_Content.zip",
+                          "AzureSiteName":  "SiteCAzureSiteName"
+                      }
+                  ]
+    }
+]

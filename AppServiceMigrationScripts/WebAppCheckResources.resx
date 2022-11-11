@@ -1,0 +1,408 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AppPoolCheckCategory" xml:space="preserve">
+    <value>Issue</value>
+  </data>
+  <data name="AppPoolCheckDescription" xml:space="preserve">
+    <value>The IIS site is using the following application pools: {0}.</value>
+  </data>
+  <data name="AppPoolCheckMoreInformation" xml:space="preserve">
+    <value>More about application pools</value>
+  </data>
+  <data name="AppPoolCheckMoreInformationLink" xml:space="preserve">
+    <value>https://go.microsoft.com/fwlink/?linkid=2154701</value>
+  </data>
+  <data name="AppPoolCheckRecommendation" xml:space="preserve">
+    <value>Move the workloads to a single application pool and remove additional application pools.</value>
+  </data>
+  <data name="AppPoolCheckTitle" xml:space="preserve">
+    <value>Azure App Service does not support more than one application pool configuration per App Service Application.</value>
+  </data>
+  <data name="AppPoolIdentityCheckCategory" xml:space="preserve">
+    <value>Issue</value>
+  </data>
+  <data name="AppPoolIdentityCheckDescription" xml:space="preserve">
+    <value>The site's application pool is running as an unsupported user identity type: {0}</value>
+  </data>
+  <data name="AppPoolIdentityCheckMoreInformation" xml:space="preserve">
+    <value>More about application pool identity and Azure App Service</value>
+  </data>
+  <data name="AppPoolIdentityCheckMoreInformationLink" xml:space="preserve">
+    <value>https://go.microsoft.com/fwlink/?linkid=2154702</value>
+  </data>
+  <data name="AppPoolIdentityCheckRecommendation" xml:space="preserve">
+    <value>Set the Application pool to run as ApplicationPoolIdentity.</value>
+  </data>
+  <data name="AppPoolIdentityCheckTitle" xml:space="preserve">
+    <value>Azure App Service does not support using the LocalSystem or SpecificUser application pool identity types.</value>
+  </data>
+  <data name="AuthCheckCategory" xml:space="preserve">
+    <value>Issue</value>
+  </data>
+  <data name="AuthCheckDescription" xml:space="preserve">
+    <value>The following unsupported authentication types were found: {0}</value>
+  </data>
+  <data name="AuthCheckMoreInformation" xml:space="preserve">
+    <value>More about App Service auth</value>
+  </data>
+  <data name="AuthCheckMoreInformationLink" xml:space="preserve">
+    <value>https://go.microsoft.com/fwlink/?linkid=2154678</value>
+  </data>
+  <data name="AuthCheckRecommendation" xml:space="preserve">
+    <value>Disable the unsupported authentication types on the site. After the migration is complete, it will be possible to configure the site using one of the Azure App Service supported authentication types.</value>
+  </data>
+  <data name="AuthCheckTitle" xml:space="preserve">
+    <value>Azure App Service supported authentication types and configuration are different from on-premises IIS.</value>
+  </data>
+  <data name="AuthCheckUnknownCategory" xml:space="preserve">
+    <value>Issue</value>
+  </data>
+  <data name="AuthCheckUnknownDescription" xml:space="preserve">
+    <value>Unable to determine enabled authentication types for all of the site configuration.</value>
+  </data>
+  <data name="AuthCheckUnknownMoreInformation" xml:space="preserve">
+    <value>More about configuration errors</value>
+  </data>
+  <data name="AuthCheckUnknownMoreInformationLink" xml:space="preserve">
+    <value>https://go.microsoft.com/fwlink/?linkid=2154679</value>
+  </data>
+  <data name="AuthCheckUnknownRecommendation" xml:space="preserve">
+    <value>Fix all configuration errors and confirm that all site content locations are accessible to Administrators group.</value>
+  </data>
+  <data name="AuthCheckUnknownTitle" xml:space="preserve">
+    <value>Unable to determine authentication types.</value>
+  </data>
+  <data name="ConfigErrorCheckCategory" xml:space="preserve">
+    <value>Issue</value>
+  </data>
+  <data name="ConfigErrorCheckDescription" xml:space="preserve">
+    <value>The following configuration errors were found: {0}</value>
+  </data>
+  <data name="ConfigErrorCheckMoreInformation" xml:space="preserve">
+    <value>More about configuration errors</value>
+  </data>
+  <data name="ConfigErrorCheckMoreInformationLink" xml:space="preserve">
+    <value>https://go.microsoft.com/fwlink/?linkid=2154703</value>
+  </data>
+  <data name="ConfigErrorCheckRecommendation" xml:space="preserve">
+    <value>Fix all configuration errors, making sure configuration is valid and accessible.</value>
+  </data>
+  <data name="ConfigErrorCheckTitle" xml:space="preserve">
+    <value>Migration readiness cannot be determined without reading all applicable configuration.</value>
+  </data>
+  <data name="ContentSizeCheckCategory" xml:space="preserve">
+    <value>Issue</value>
+  </data>
+  <data name="ContentSizeCheckDescription" xml:space="preserve">
+    <value>The site content appears to be greater than the maximum allowed of 2 GB for successful migration.</value>
+  </data>
+  <data name="ContentSizeCheckMoreInformation" xml:space="preserve">
+    <value>More about file content and Azure App Service</value>
+  </data>
+  <data name="ContentSizeCheckMoreInformationLink" xml:space="preserve">
+    <value>https://go.microsoft.com/fwlink/?linkid=2154704</value>
+  </data>
+  <data name="ContentSizeCheckRecommendation" xml:space="preserve">
+    <value>Evaluate if the site could switch to using non-file system based storage options for static content, such as Azure Storage.</value>
+  </data>
+  <data name="ContentSizeCheckTitle" xml:space="preserve">
+    <value>For successful migration site content should be less than 2 GB.</value>
+  </data>
+  <data name="ContentSizeCheckUnknownCategory" xml:space="preserve">
+    <value>Issue</value>
+  </data>
+  <data name="ContentSizeCheckUnknownDescription" xml:space="preserve">
+    <value>File content size was not able to be determined, which usually indicates an access issue.</value>
+  </data>
+  <data name="ContentSizeCheckUnknownMoreInformation" xml:space="preserve">
+    <value>More about content size issues</value>
+  </data>
+  <data name="ContentSizeCheckUnknownMoreInformationLink" xml:space="preserve">
+    <value>https://go.microsoft.com/fwlink/?linkid=2154680</value>
+  </data>
+  <data name="ContentSizeCheckUnknownRecommendation" xml:space="preserve">
+    <value>Confirm that site is not using UNC shares for content and that all site content locations are accessible to Administrators group.</value>
+  </data>
+  <data name="ContentSizeCheckUnknownTitle" xml:space="preserve">
+    <value>Content must be accessible in order to migrate the site.</value>
+  </data>
+  <data name="FrameworkCheckCategory" xml:space="preserve">
+    <value>Info</value>
+  </data>
+  <data name="FrameworkCheckDescription" xml:space="preserve">
+    <value>The following non-.NET frameworks or unsupported .NET framework versions were detected as possibly in use by this site: {0}</value>
+  </data>
+  <data name="FrameworkCheckMoreInformation" xml:space="preserve">
+    <value>More about different frameworks on Azure App Service</value>
+  </data>
+  <data name="FrameworkCheckMoreInformationLink" xml:space="preserve">
+    <value>https://go.microsoft.com/fwlink/?linkid=2154686</value>
+  </data>
+  <data name="FrameworkCheckRecommendation" xml:space="preserve">
+    <value>App Service supports multiple frameworks, however these have different migration options. Confirm that the non-.NET frameworks are not being used by the site, or consider using an alternate migration option.</value>
+  </data>
+  <data name="FrameworkCheckTitle" xml:space="preserve">
+    <value>Migration does not validate the framework for non-.NET sites.</value>
+  </data>
+  <data name="GlobalModuleCheckCategory" xml:space="preserve">
+    <value>Issue</value>
+  </data>
+  <data name="GlobalModuleCheckDescription" xml:space="preserve">
+    <value>The following unsupported global modules were detected: {0}</value>
+  </data>
+  <data name="GlobalModuleCheckMoreInformation" xml:space="preserve">
+    <value>More about IIS GlobalModules and Azure App Service</value>
+  </data>
+  <data name="GlobalModuleCheckMoreInformationLink" xml:space="preserve">
+    <value>https://go.microsoft.com/fwlink/?linkid=2154681</value>
+  </data>
+  <data name="GlobalModuleCheckRecommendation" xml:space="preserve">
+    <value>Remove the unsupported module(s) from GlobalModules section along with all associated configuration.</value>
+  </data>
+  <data name="GlobalModuleCheckTitle" xml:space="preserve">
+    <value>Azure App Service supports limited global modules.</value>
+  </data>
+  <data name="HttpsBindingCheckCategory" xml:space="preserve">
+    <value>Info</value>
+  </data>
+  <data name="HttpsBindingCheckDescription" xml:space="preserve">
+    <value>The application uses HTTPS.</value>
+  </data>
+  <data name="HttpsBindingCheckMoreInformation" xml:space="preserve">
+    <value>Configure SSL for Azure App Service</value>
+  </data>
+  <data name="HttpsBindingCheckMoreInformationLink" xml:space="preserve">
+    <value>https://go.microsoft.com/fwlink/?linkid=2154682</value>
+  </data>
+  <data name="HttpsBindingCheckRecommendation" xml:space="preserve">
+    <value>Post migration additional steps will be required to associate certificates with the Azure App Service site.</value>
+  </data>
+  <data name="HttpsBindingCheckTitle" xml:space="preserve">
+    <value>Additional manual steps are required for HTTPS configuration in App Service.</value>
+  </data>
+  <data name="IsapiFilterCheckCategory" xml:space="preserve">
+    <value>Issue</value>
+  </data>
+  <data name="IsapiFilterCheckDescription" xml:space="preserve">
+    <value>The following unsupported ISAPI filters were detected: {0}</value>
+  </data>
+  <data name="IsapiFilterCheckMoreInformation" xml:space="preserve">
+    <value>More about ISAPI filters and Azure App Service</value>
+  </data>
+  <data name="IsapiFilterCheckMoreInformationLink" xml:space="preserve">
+    <value>https://go.microsoft.com/fwlink/?linkid=2154705</value>
+  </data>
+  <data name="IsapiFilterCheckRecommendation" xml:space="preserve">
+    <value>Remove the unsupported ISAPI filters.</value>
+  </data>
+  <data name="IsapiFilterCheckTitle" xml:space="preserve">
+    <value>Automatic configuration of custom ISAPI filters is not supported.</value>
+  </data>
+  <data name="IsapiFilterCheckUnknownCategory" xml:space="preserve">
+    <value>Issue</value>
+  </data>
+  <data name="IsapiFilterCheckUnknownDescription" xml:space="preserve">
+    <value>Unable to determine ISAPI filters present for all of the site configuration.</value>
+  </data>
+  <data name="IsapiFilterCheckUnknownMoreInformation" xml:space="preserve">
+    <value>More about configuration errors</value>
+  </data>
+  <data name="IsapiFilterCheckUnknownMoreInformationLink" xml:space="preserve">
+    <value>https://go.microsoft.com/fwlink/?linkid=2154706</value>
+  </data>
+  <data name="IsapiFilterCheckUnknownRecommendation" xml:space="preserve">
+    <value>Fix all configuration errors and confirm that all site content locations are accessible to Administrators group.</value>
+  </data>
+  <data name="IsapiFilterCheckUnknownTitle" xml:space="preserve">
+    <value>Automatic configuration of custom ISAPI filters is not supported.</value>
+  </data>
+  <data name="LocationTagCheckCategory" xml:space="preserve">
+    <value>Issue</value>
+  </data>
+  <data name="LocationTagCheckDescription" xml:space="preserve">
+    <value>The following location paths were found in the applicationHost.config file: {0}</value>
+  </data>
+  <data name="LocationTagCheckMoreInformation" xml:space="preserve">
+    <value>More about location tags</value>
+  </data>
+  <data name="LocationTagCheckMoreInformationLink" xml:space="preserve">
+    <value>https://go.microsoft.com/fwlink/?linkid=2154707</value>
+  </data>
+  <data name="LocationTagCheckRecommendation" xml:space="preserve">
+    <value>Move the location path configuration to either the site's root web.config file, or to a web.config file associated with the specific application to which they apply.</value>
+  </data>
+  <data name="LocationTagCheckTitle" xml:space="preserve">
+    <value>Migration method does not support moving location path configuration in applicationHost.config.</value>
+  </data>
+  <data name="ProtocolCheckCategory" xml:space="preserve">
+    <value>Issue</value>
+  </data>
+  <data name="ProtocolCheckDescription" xml:space="preserve">
+    <value>Bindings were found using the following unsupported protocols: {0}</value>
+  </data>
+  <data name="ProtocolCheckMoreInformation" xml:space="preserve">
+    <value>Supported protocol information</value>
+  </data>
+  <data name="ProtocolCheckMoreInformationLink" xml:space="preserve">
+    <value>https://go.microsoft.com/fwlink/?linkid=2154683</value>
+  </data>
+  <data name="ProtocolCheckRecommendation" xml:space="preserve">
+    <value>Remove the bindings with protocols that are not HTTP or HTTPS.</value>
+  </data>
+  <data name="ProtocolCheckTitle" xml:space="preserve">
+    <value>Azure App Service only supports HTTP and HTTPS protocol.</value>
+  </data>
+  <data name="TcpPortCheckCategory" xml:space="preserve">
+    <value>Info</value>
+  </data>
+  <data name="TcpPortCheckDescription" xml:space="preserve">
+    <value>Bindings were found on the following unsupported ports: {0}</value>
+  </data>
+  <data name="TcpPortCheckMoreInformation" xml:space="preserve">
+    <value>More about ports on Azure App Service</value>
+  </data>
+  <data name="TcpPortCheckMoreInformationLink" xml:space="preserve">
+    <value>https://go.microsoft.com/fwlink/?linkid=2154684</value>
+  </data>
+  <data name="TcpPortCheckRecommendation" xml:space="preserve">
+    <value>Azure App Services supports only ports 80 and 443. Clients making requests to the site should update the port in their requests to use 80 or 443.</value>
+  </data>
+  <data name="TcpPortCheckTitle" xml:space="preserve">
+    <value>Azure App Service does not support incoming traffic on ports other than 80 and 443.</value>
+  </data>
+  <data name="VirtualDirectoryCheckCategory" xml:space="preserve">
+    <value>Issue</value>
+  </data>
+  <data name="VirtualDirectoryCheckDescription" xml:space="preserve">
+    <value>The following virtual directories are hosted on UNC shares: {0}</value>
+  </data>
+  <data name="VirtualDirectoryCheckMoreInformation" xml:space="preserve">
+    <value>More about UNC share limitations</value>
+  </data>
+  <data name="VirtualDirectoryCheckMoreInformationLink" xml:space="preserve">
+    <value>https://go.microsoft.com/fwlink/?linkid=2154685</value>
+  </data>
+  <data name="VirtualDirectoryCheckRecommendation" xml:space="preserve">
+    <value>Move content to a local file path or consider changing to a non-file system based storage option, such as Azure Storage. If using shared configuration, disable shared configuration for the server before modifying content paths.</value>
+  </data>
+  <data name="VirtualDirectoryCheckTitle" xml:space="preserve">
+    <value>Migration does not support migrating site content hosted on UNC shares.</value>
+  </data>
+</root>

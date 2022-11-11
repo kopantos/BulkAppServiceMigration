@@ -1,0 +1,7 @@
+Thank you for trying the App Service PowerShell Scripts Preview!
+
+Documentation:
+https://github.com/Azure/App-Service-Migration-Assistant/wiki/PowerShell-Scripts
+
+Please report any issues or provide feedback at: 
+https://github.com/Azure/App-Service-Migration-Assistant/issues
