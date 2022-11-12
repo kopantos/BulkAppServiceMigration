@@ -32,7 +32,7 @@ jobs:
       with:
         inlineScript: |
             az storage blob upload-batch --account-name ${{ env.storageAccountName }} --auth-mode key --overwrite true --destination 'scripts' --source ./AppServiceMigrationScripts
-            az storage blob upload --account-name ${{ env.storageAccountName }} --auth-mode key --overwrite true --destination 'scripts' --source Assess-Upload.ps1
+            az storage blob upload --account-name ${{ env.storageAccountName }} --auth-mode key --overwrite true --container-name scripts --file Assess-Upload.ps1
             
   # Azure logout
     - name: logout
